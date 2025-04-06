@@ -15,7 +15,7 @@ class CrawlerScheduleCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'kkphim:plugins:kkphim-crawler:schedule';
+    protected $signature = 'ophim:plugins:kkphim-crawler:schedule';
 
     /**
      * The console command description.
