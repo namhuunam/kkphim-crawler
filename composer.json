@@ -1,0 +1,29 @@
+{
+    "name": "namhuunam/kkphim-crawler",
+    "description": "kkphim crawler mod",
+    "type": "package",
+    "require": {
+        "namhuunam/kkphim-core": "^1.0.0",
+        "intervention/image": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ophim\\Crawler\\KKPhimCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kkphim",
+            "email": "support@kkphim.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophim\\Crawler\\KKPhimCrawler\\KKPhimCrawlerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

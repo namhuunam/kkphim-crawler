@@ -1,1 +1,1 @@
-# kkphim-crawler
+# Modelus hỗ trợ lấy tài nguyên từ KKPHIM.COM sử dụng cho OPHIMCMS.
